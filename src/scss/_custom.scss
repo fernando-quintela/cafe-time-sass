@@ -1,0 +1,12 @@
+$cafe: #743c20;
+$cafeClaro: #92624a;
+
+
+$primary: $cafe;
+$secondary: $cafeClaro;
+
+$display-font-weight:900;
+$heading-font-weight:700;
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
