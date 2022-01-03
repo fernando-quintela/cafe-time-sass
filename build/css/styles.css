@@ -11150,4 +11150,15 @@ span {
   color: #877457;
 }
 
+footer .Social a {
+  border-radius: 50%;
+  border: 0;
+}
+footer .enlances a {
+  text-decoration: none;
+}
+footer li:hover .text-white {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=styles.css.map */

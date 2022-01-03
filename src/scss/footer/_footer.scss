@@ -1,0 +1,22 @@
+footer{
+  .Social{
+    a{
+      border-radius:50%;
+      border: 0;
+    }
+  }
+
+  .enlances{
+    a{
+      text-decoration: none;
+    } 
+  }
+li{
+  &:hover{
+    .text-white{
+      text-decoration: underline;
+    }
+  }
+}
+
+}
