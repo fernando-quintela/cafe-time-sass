@@ -1,5 +1,6 @@
 $cafe: #743c20;
 $cafeClaro: #92624a;
+$gris: #b5b5b5;
 
 
 $primary: $cafe;
@@ -10,6 +11,9 @@ $heading-font-weight:700;
 
 // card
 $card-border-color: transparent;
+// navlink
+$nav-link-padding-x: 0;
+$nav-link-color: $gris;
 
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

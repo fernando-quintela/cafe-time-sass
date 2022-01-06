@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-<!-- font-family: 'Pacifico', cursive;
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <!-- font-family: 'Pacifico', cursive;
 font-family: 'Roboto', sans-serif; -->
-<link rel="stylesheet" href="build/css/styles.css">
-<script src="https://kit.fontawesome.com/3f05d2095a.js" crossorigin="anonymous"></script>
-<link rel="shortcut icon" href="img/favicon.ico">
+
+  <link rel="stylesheet" href="build/css/styles.css">
+  <!-- <link rel="stylesheet" href="build/css/cafetime.css"> -->
+
+  <script src="https://kit.fontawesome.com/3f05d2095a.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="img/favicon.ico">
   <title>Cafe Time</title>
 </head>
+
 <body>
   <header class="container header">
     <div class="row align-items-center">
@@ -21,7 +27,7 @@ font-family: 'Roboto', sans-serif; -->
 
         <span class="text-primary">Cafe Time</span>
         <h1 class="display-2">
-        Disfruta, el cafe del momento
+          Disfruta, el cafe del momento
         </h1>
         <p class="fs-3">
           visita nuestro locales y disfruta el placer del mejor cafe de tus amigos
@@ -38,7 +44,9 @@ font-family: 'Roboto', sans-serif; -->
 
   <section class="container">
     <h2 class="fs-1 text-center">Nuestros Productos</h2>
-    <p class="text-center w-50 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit doloribus a consectetur aliquam, magnam, ea necessitatibus repellat recusandae quae in hic amet? Sed odio accusantium exercitationem. Facere quis pariatur accusamus!</p>
+    <p class="text-center w-50 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit doloribus a
+      consectetur aliquam, magnam, ea necessitatibus repellat recusandae quae in hic amet? Sed odio accusantium
+      exercitationem. Facere quis pariatur accusamus!</p>
     <div class="row">
 
       <div class="col-md-4">
@@ -46,15 +54,99 @@ font-family: 'Roboto', sans-serif; -->
           <img class="img-fluid" src="img/figura3.png" alt="torta de chocolate">
         </figure>
         <h3 class="text-secondary text-center fs-4">Torta de chocolate </h3>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor sit iste nesciunt tempora, nihil recusandae ipsum! Ullam animi mollitia at porro repellat dignissimos, esse possimus? Perspiciatis aliquam vero officiis.</p>
+        <!-- <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor sit iste nesciunt tempora,
+          nihil recusandae ipsum! Ullam animi mollitia at porro repellat dignissimos, esse possimus? Perspiciatis
+          aliquam vero officiis.</p> -->
+
+          <!-- modal 01 -->
+           <!-- Button trigger modal -->
+           <div class="fs-1 text-center">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop01">
+  Descripcion de producto
+</button>
+        </div>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop01" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Torta de chocolate</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="img/figura3.png" alt="torta de chocolate">
+        <p>
+          deliciosa Torta de chocolate rellena de almendras, chocolate negro azucares naturales
+        </p>
+        
+      </div>
+      <div class="modal-footer btn btn-secondary d-flex justify-content-evenly">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+        <button type="button" class="btn btn-primary">Entendido</button> -->
+        <cite class="fw-bolder fs-5">
+          Precio: $ 3.900
+        </cite>
+        <cite class="fw-bolder fs-5">
+          Calorías: 160
+        </cite>
+      </div>
+    </div>
+  </div>
+</div>
+
+          <!--fin modal -->
+
       </div>
 
       <div class="col-md-4">
-         <figure>
-           <img class="img-fluid" src="img/figura2.png" alt="cafe">
-         </figure>
-         <h3 class="text-secondary text-center fs-4">Cafe de vainilla </h3>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor sit iste nesciunt tempora, nihil recusandae ipsum! Ullam animi mollitia at porro repellat dignissimos, esse possimus? Perspiciatis aliquam vero officiis.</p>
+        <figure>
+          <img class="img-fluid" src="img/figura2.png" alt="cafe">
+        </figure>
+        <h3 class="text-secondary text-center fs-4">Cafe de vainilla </h3>
+        <!-- <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor sit iste nesciunt tempora,
+          nihil recusandae ipsum! Ullam animi mollitia at porro repellat dignissimos, esse possimus? Perspiciatis
+          aliquam vero officiis.</p> -->
+
+               <!-- modal  02-->
+           <!-- Button trigger modal -->
+
+           <div class="fs-1 text-center">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop02">
+  Descripcion de producto
+</button>
+        </div>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop02" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Cafe de vainilla</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="img/figura2.png" alt="cafe">
+        <p>
+          Nuestro cafe de vainilla es el perfecto balance entre café, dulzor y sabor, con una exquisita espuma, hecho con leche descremada y un delicioso sabor natural a vainilla. Especial para una pausa reconfortante durante el día.
+        </p>
+        
+      </div>
+      <div class="modal-footer btn btn-secondary d-flex justify-content-evenly">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+        <cite class="fw-bolder fs-5">
+          Precio: $ 2.500
+        </cite>
+        <cite class="fw-bolder fs-5">
+          Calorías: 75
+        </cite>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+          <!--fin modal -->
+
       </div>
 
       <div class="col-md-4">
@@ -62,14 +154,57 @@ font-family: 'Roboto', sans-serif; -->
           <img class="img-fluid" src="img/figura4.png" alt="tiramisu">
         </figure>
         <h3 class="text-secondary text-center fs-4">Tiramisu</h3>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor sit iste nesciunt tempora, nihil recusandae ipsum! Ullam animi mollitia at porro repellat dignissimos, esse possimus? Perspiciatis aliquam vero officiis.</p>
-     </div>
+        <!-- <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor sit iste
+          nesciunt tempora, nihil recusandae ipsum! Ullam animi mollitia at porro repellat dignissimos, esse possimus?
+          Perspiciatis aliquam vero officiis.</p> -->
+
+                 <!-- modal 03 -->
+           <!-- Button trigger modal -->
+
+           <div class="fs-1 text-center">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop03">
+  Descripcion de producto
+</button>
+          </div>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop03" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Tiramisu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="img/figura4.png" alt="tiramisu">
+        <p>
+          El tiramisú es uno de los postres más populares del mundo. Es un plato dulce tradicional italiano, preparado con café, bizcocho, yemas de huevo, mascarpone y cacao. 
+        </p>
+      </div>
+      <div class="modal-footer btn btn-secondary d-flex justify-content-evenly">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button> -->
+
+        <cite class="fw-bolder fs-5">
+          Precio: $ 4.500
+        </cite>
+        <cite class="fw-bolder fs-5">
+          Calorías: 185
+        </cite>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+          <!--fin modal -->
+
+      </div>
 
     </div>
 
-     <div class="d-flex justify-content-center my-5">
+    <div class="d-flex justify-content-center my-5">
       <a href="#" class="btn btn-secondary">mas producto</a>
-     </div>
+    </div>
 
   </section>
 
@@ -80,86 +215,85 @@ font-family: 'Roboto', sans-serif; -->
       <a href="#" class="text-decoration-none d-none d-sm-block">exploradora mas locales</a>
     </div>
 
-       <!-- cards -->
+    <!-- cards -->
     <div class="row mt-4">
-       
-    <div class="col-md-6 col-lg-3">
-     <div class="card">
-        <img class="card-img-top" src="img/photo1jpg.jpeg" alt="local 1">
-        <div class="card-body">
-        <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
-        <h3 class="card-title fs-5">Santiago </h3>
-        <p class="card-text descripcion">Av. Andrés Bello 2325, Providencia. Santiago, Chile</p>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/photo1jpg.jpeg" alt="local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
+            <h3 class="card-title fs-5">Santiago </h3>
+            <p class="card-text descripcion">Av. Andrés Bello 2325, Providencia. Santiago, Chile</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-md-6 col-lg-3">
-      <div class="card">
-         <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/16/a6/51/5f/restaurant-cafeteria.jpg" alt="local 2">
-         <div class="card-body">
-         <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
-         <h3 class="card-title fs-5"> Iquique  </h3>
-         <p class="card-text descripcion">Avenida Arturo Prat 3068 Local 3, Iquique, Chile</p>
-         </div>
-       </div>
-     </div>
-
-     <div class="col-md-6 col-lg-3">
-      <div class="card">
-         <img class="card-img-top" src="img/local2.jpeg" alt="local 3">
-         <div class="card-body">
-         <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
-         <h3 class="card-title fs-5">Valparaiso </h3>
-         <p class="card-text descripcion">Almte. Montt 399, Valparaíso, Cerro Alegre, Valparaíso, Chile</p>
-         </div>
-       </div>
-     </div>
-
-     <div class="col-md-6 col-lg-3">
-      <div class="card">
-         <img class="card-img-top" src="img/local4.jpeg" alt="local 4">
-         <div class="card-body">
-         <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
-         <h3 class="card-title fs-5">Puerto Montt </h3>
-         <p class="card-text descripcion">Aníbal Pinto 340, Puerto Montt, Los Lagos, Chile</p>
-         </div>
-       </div>
-     </div>
-
-    </div>
-        <!-- /cards -->
-    
-  <!-- aplicacion moviles -->
-  <section class="app-movil container mt-5">
-    <div class="row">
-      <div class="offset-md-4 col-md-4">
-        <span class="d-block mx-auto text-primary">CafeTime</span>
-        <p class="text-center fw-bold mt-5 fs-4">Mantente conectado. descarga Coffe time App</p>
-       <div class="d-flex gap-4">
-
-        <div class="col">
-          <a href="#">
-            <img class="img-fluid" src="img/svg/tienda-android.svg" alt="imagen apple store">
-          </a>
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://media-cdn.tripadvisor.com/media/photo-s/16/a6/51/5f/restaurant-cafeteria.jpg" alt="local 2">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
+            <h3 class="card-title fs-5"> Iquique </h3>
+            <p class="card-text descripcion">Avenida Arturo Prat 3068 Local 3, Iquique, Chile</p>
+          </div>
         </div>
+      </div>
 
-        <div class="col">
-          <a href="#">
-            <img class="img-fluid" src="img/svg/tienda-apple.svg" alt="imagen apple store">
-            
-          </a>
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local2.jpeg" alt="local 3">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
+            <h3 class="card-title fs-5">Valparaiso </h3>
+            <p class="card-text descripcion">Almte. Montt 399, Valparaíso, Cerro Alegre, Valparaíso, Chile</p>
+          </div>
         </div>
+      </div>
 
-       </div> 
-
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local4.jpeg" alt="local 4">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
+            <h3 class="card-title fs-5">Puerto Montt </h3>
+            <p class="card-text descripcion">Aníbal Pinto 340, Puerto Montt, Los Lagos, Chile</p>
+          </div>
+        </div>
       </div>
 
     </div>
-  </section>
-  <!-- /aplicacion moviles -->
+    <!-- /cards -->
 
+    <!-- aplicacion moviles -->
+    <section class="app-movil container mt-5">
+      <div class="row">
+        <div class="offset-md-4 col-md-4">
+          <span class="d-block mx-auto text-primary">CafeTime</span>
+          <p class="text-center fw-bold mt-5 fs-4">Mantente conectado. descarga Coffe time App</p>
+          <div class="d-flex gap-4">
 
+            <div class="col">
+              <a href="#">
+                <img class="img-fluid" src="img/svg/tienda-android.svg" alt="imagen apple store">
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="#">
+                <img class="img-fluid" src="img/svg/tienda-apple.svg" alt="imagen apple store">
+
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- /aplicacion moviles -->
 
   </main>
 
@@ -356,7 +490,10 @@ font-family: 'Roboto', sans-serif; -->
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-  
-</body>
-</html>
 
+  <!-- script de boostarp -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
